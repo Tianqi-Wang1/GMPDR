@@ -21,8 +21,8 @@ The current version of the codes has been tested with Python 3.8.20 on both Wind
 Please install the necessary packages
 
 
-To download the pre-trained segmentation model weights, refer to https://drive.google.com/file/d/1u4hTk_BZGq1929IxMPLCrDzoG3wsZnsa/view?usp=sharing. Place the **SDD_segmentation.pth** file in the **segmentation_models** folder.
-We declare that the link originates from a published work cited in this paper. This link contains no information relevant to the present work. This codebase remains entirely anonymous.
+To download the pre-trained segmentation model weights, refer to https://drive.google.com/file/d/14bHFGVx_DP-cqJuNnWMEQcJroT5e4eJ3/view?usp=sharing. Place the **SDD_segmentation.pth** file in the **segmentation_models** folder.
+We declare that this link is also completely anonymous.
 
 
 
