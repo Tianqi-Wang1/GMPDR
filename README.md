@@ -23,7 +23,7 @@ Please install the necessary packages.
 
 
 
-To download the pre-trained segmentation model weights, refer to https://drive.google.com/file/d/14bHFGVx_DP-cqJuNnWMEQcJroT5e4eJ3/view?usp=sharing. Place the **SDD_segmentation.pth** file in the **segmentation_models** folder. Then replace the original empty folder with folder **trained_models**.
+To download the pre-trained segmentation model weights, refer to [https://drive.google.com/file/d/14bHFGVx_DP-cqJuNnWMEQcJroT5e4eJ3/view?usp=sharing](https://drive.google.com/file/d/1gzNokc20Z1sbtoEp6KzeuhTVL5zh20Ed/view?usp=sharing). Place the **SDD_segmentation.pth** file in the **segmentation_models** folder. Then replace the original empty folder with folder **trained_models**.
 
 We declare that this link is also completely anonymous.
 
