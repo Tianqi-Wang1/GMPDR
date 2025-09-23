@@ -21,7 +21,8 @@ The current version of the codes has been tested with Python 3.8.20 on both Wind
 Please install the necessary packages
 
 
-To download the pre-trained segmentation model weights, refer to https://drive.google.com/file/d/14bHFGVx_DP-cqJuNnWMEQcJroT5e4eJ3/view?usp=sharing. Place the **SDD_segmentation.pth** file in the **segmentation_models** folder.
+To download the pre-trained segmentation model weights, refer to https://drive.google.com/file/d/14bHFGVx_DP-cqJuNnWMEQcJroT5e4eJ3/view?usp=sharing. Place the **SDD_segmentation.pth** file in the **segmentation_models** folder. Then replace the original empty folder with Folder **trained_models**.
+
 We declare that this link is also completely anonymous.
 
 
@@ -30,6 +31,14 @@ We declare that this link is also completely anonymous.
 **How To Use**
 
 For ease of implementation, the detection and accommodation processes are evaluated separately. 
+
+You can directly run the following two commands to evaluate the accommodation and detection processes of the pre-trained model.
+
+`python inference_GMPDR_accommodation.py`
+``python inference_GMPDR_detection.py``
+
+
+Meanwhile, we can also retrain the model from scratch.
 
 First, run the following command to complete the accommodation process and test predictive performance. 
 
