@@ -27,10 +27,10 @@ df_train = pd.read_pickle(TRAIN_DATA_PATH)
 
 # Define incremental tasks
 scene_splits = {
-    "gates": ["gates_0", "gates_1", "gates_3", "gates_4", "gates_5", "gates_6", "gates_7", "gates_8"],
-    "hyang": ["hyang_4", "hyang_5", "hyang_6", "hyang_7", "hyang_9"],
     "nexus": ["nexus_0", "nexus_1", "nexus_2", "nexus_3", "nexus_4", "nexus_7", "nexus_8", "nexus_9"],
-    "coupa": ["coupa_3"]
+    "coupa": ["coupa_3"],
+    "gates": ["gates_0", "gates_1", "gates_3", "gates_4", "gates_5", "gates_6", "gates_7", "gates_8"],
+    "hyang": ["hyang_4", "hyang_5", "hyang_6", "hyang_7", "hyang_9"]
 }
 
 scene_column_index = 4
@@ -91,7 +91,7 @@ for scene in train_scene_datasets:
 val_scene_datasets = sampled_val_scene_datasets
 
 
-scenes = ['gates', 'hyang', 'nexus', 'coupa']
+scenes = ['nexus', 'coupa', 'gates', 'hyang']
 model = YNet(obs_len=OBS_LEN, pred_len=PRED_LEN, params=params)
 MPDC_backbone = Network(12288, 512, 128, params['class_scene'])
 
